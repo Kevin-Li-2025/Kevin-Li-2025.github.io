@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kevin Li is an Artificial Intelligence student at the University of Birmingham, building LLM systems, retrieval evaluation, post-training pipelines, and AI for Science infrastructure."
+    />
+    <meta property="og:title" content="Kevin Li | LLM Systems & AI Research" />
+    <meta
+      property="og:description"
+      content="LLM systems engineer and researcher focused on measurable agent infrastructure, retrieval evaluation, post-training, and AI for Science."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kevin-li-2025.github.io/" />
+    <title>Kevin Li | LLM Systems & AI Research</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kevin Li",
+        "url": "https://kevin-li-2025.github.io/",
+        "sameAs": ["https://github.com/Kevin-Li-2025"],
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Birmingham"
+        },
+        "knowsAbout": [
+          "Large language models",
+          "Post-training",
+          "Retrieval evaluation",
+          "Scientific agents",
+          "AI for Science infrastructure"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kevin Li home">
+        <span class="brand-mark">KL</span>
+        <span>Kevin Li</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">University of Birmingham · Artificial Intelligence · Year 2</p>
+          <h1>LLM systems engineer and researcher building measurable agent infrastructure.</h1>
+          <p class="lede">
+            I study Artificial Intelligence in the School of Computer Science at the University of Birmingham,
+            currently with a 4.0 GPA. My work focuses on post-training, retrieval evaluation, tool-use agents,
+            and AI for Science infrastructure.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="https://github.com/Kevin-Li-2025">GitHub</a>
+            <a class="button secondary" href="#work">Selected work</a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile summary">
+          <img
+            class="avatar"
+            src="https://avatars.githubusercontent.com/u/215896158?v=4"
+            alt="Kevin Li GitHub avatar"
+          />
+          <div class="profile-line">
+            <span>Focus</span>
+            <strong>LLM systems</strong>
+          </div>
+          <div class="profile-line">
+            <span>Current study</span>
+            <strong>Artificial Intelligence, Year 2</strong>
+          </div>
+          <div class="profile-line">
+            <span>Academic mark</span>
+            <strong>4.0 GPA</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected systems</p>
+          <h2>Projects with clear evaluation surfaces.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card feature">
+            <div>
+              <p class="project-type">AI4S Infra · Scientific agents</p>
+              <h3>SciTrace-RL</h3>
+              <p>
+                Trace, validation, and reward infrastructure for scientific agents. It records tool calls,
+                artifacts, citations, validation results, and expert-escalation boundaries, then converts
+                execution traces into training-ready feedback data.
+              </p>
+            </div>
+            <a href="https://github.com/Kevin-Li-2025/SciTrace_RL">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Fine-tuning · Evaluation</p>
+            <h3>NL2SQL</h3>
+            <p>
+              Reproducible text-to-SQL fine-tuning and multi-path inference benchmark using Qwen2.5-Coder-7B
+              on Spider/BIRD-style tasks.
+            </p>
+            <a href="https://github.com/Kevin-Li-2025/NL2SQL">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Post-training · LLM stack</p>
+            <h3>repro-llm-stack</h3>
+            <p>
+              Data manifests, SFT/DPO preparation, data quality checks, and fixed evaluation hooks for
+              7B-class model experiments.
+            </p>
+            <a href="https://github.com/Kevin-Li-2025/repro-llm-stack">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Retrieval · Agent systems</p>
+            <h3>SignalRAG</h3>
+            <p>
+              Search and retrieval workbench with query planning, multi-source retrieval, citation checks,
+              and extractive fallback when model APIs are unavailable.
+            </p>
+            <a href="https://github.com/Kevin-Li-2025/SignalRAG">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Code intelligence</p>
+            <h3>CodeGraph</h3>
+            <p>
+              AST-driven GraphRAG for codebases, using deterministic program structure instead of plain text
+              chunks for architectural reasoning.
+            </p>
+            <a href="https://github.com/Kevin-Li-2025/CodeGraph">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Efficient models</p>
+            <h3>1.58bit_model</h3>
+            <p>
+              1.58-bit model training experiments with quantization-aware layers, Triton kernels,
+              stability tracking, and GPU utilization instrumentation.
+            </p>
+            <a href="https://github.com/Kevin-Li-2025/1.58bit_model">View repository</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research direction</p>
+          <h2>From prototypes to systems that can be measured.</h2>
+        </div>
+        <div class="research-list">
+          <div>
+            <h3>Post-training data</h3>
+            <p>Building controlled data pipelines, preference signals, and reproducible evaluation runs.</p>
+          </div>
+          <div>
+            <h3>Retrieval evaluation</h3>
+            <p>Testing citation integrity, failure modes, routing behavior, and regression risk in RAG systems.</p>
+          </div>
+          <div>
+            <h3>Scientific agents</h3>
+            <p>Designing traceable workflows where model outputs stay connected to tools, evidence, and validation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Open to research engineering, LLM systems, and AI4S infrastructure opportunities.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/Kevin-Li-2025">GitHub</a>
+          <a href="https://github.com/Kevin-Li-2025/SciTrace_RL">SciTrace-RL</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
