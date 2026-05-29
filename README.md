@@ -1,4 +1,4 @@
-# Kevin Li Personal Site
+# Yin Li Personal Site
 
 Source for [kevin-li-2025.github.io](https://kevin-li-2025.github.io/).
 
