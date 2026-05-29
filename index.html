@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Kevin Li is an Artificial Intelligence student at the University of Birmingham, building LLM systems, retrieval evaluation, post-training pipelines, and AI for Science infrastructure."
+      content="Kevin Li is an Artificial Intelligence student at the University of Birmingham building reproducible LLM evaluation, post-training, retrieval, and agent infrastructure."
     />
     <meta property="og:title" content="Kevin Li | LLM Systems & AI Research" />
     <meta
       property="og:description"
-      content="LLM systems engineer and researcher focused on measurable agent infrastructure, retrieval evaluation, post-training, and AI for Science."
+      content="LLM systems engineer focused on reproducible evaluation, retrieval, post-training, and traceable agent infrastructure."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kevin-li-2025.github.io/" />
@@ -30,6 +30,8 @@
         "knowsAbout": [
           "Large language models",
           "Post-training",
+          "Verifier-guided inference",
+          "Text-to-SQL",
           "Retrieval evaluation",
           "Scientific agents",
           "AI for Science infrastructure"
@@ -54,11 +56,11 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">University of Birmingham · Artificial Intelligence · Year 2</p>
-          <h1>LLM systems engineer and researcher building measurable agent infrastructure.</h1>
+          <h1>Reproducible LLM systems for evaluation, retrieval, and agent traces.</h1>
           <p class="lede">
             I study Artificial Intelligence in the School of Computer Science at the University of Birmingham,
-            currently with a 4.0 GPA. My work focuses on post-training, retrieval evaluation, tool-use agents,
-            and AI for Science infrastructure.
+            currently with a 4.0 GPA. My work focuses on post-training pipelines, verifier-guided inference,
+            retrieval evaluation, and infrastructure that keeps model outputs connected to evidence.
           </p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="button primary" href="https://github.com/Kevin-Li-2025">GitHub</a>
@@ -74,15 +76,15 @@
           />
           <div class="profile-line">
             <span>Focus</span>
-            <strong>LLM systems</strong>
+            <strong>LLM evaluation systems</strong>
           </div>
           <div class="profile-line">
             <span>Current study</span>
             <strong>Artificial Intelligence, Year 2</strong>
           </div>
           <div class="profile-line">
-            <span>Academic mark</span>
-            <strong>4.0 GPA</strong>
+            <span>Engineering style</span>
+            <strong>Evidence-first systems</strong>
           </div>
         </aside>
       </section>
@@ -90,21 +92,20 @@
       <section class="section" id="work">
         <div class="section-heading">
           <p class="eyebrow">Selected systems</p>
-          <h2>Projects with clear evaluation surfaces.</h2>
+          <h2>Projects with clear evidence surfaces.</h2>
         </div>
 
         <div class="project-grid">
           <article class="project-card feature">
             <div>
-              <p class="project-type">AI4S Infra · Scientific agents</p>
-              <h3>SciTrace-RL</h3>
+              <p class="project-type">Post-training · Verifier-guided inference</p>
+              <h3>L20-CodeForge</h3>
               <p>
-                Trace, validation, and reward infrastructure for scientific agents. It records tool calls,
-                artifacts, citations, validation results, and expert-escalation boundaries, then converts
-                execution traces into training-ready feedback data.
+                Single-L20 post-training and verifier-guided inference stack for executable code benchmarks,
+                with reproduction scripts, artifact hashes, and explicit claim boundaries.
               </p>
             </div>
-            <a href="https://github.com/Kevin-Li-2025/SciTrace_RL">View repository</a>
+            <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">View repository</a>
           </article>
 
           <article class="project-card">
@@ -118,13 +119,13 @@
           </article>
 
           <article class="project-card">
-            <p class="project-type">Post-training · LLM stack</p>
-            <h3>repro-llm-stack</h3>
+            <p class="project-type">Reranking · FinanceMTEB</p>
+            <h3>finmteb-zh-reranker-sota</h3>
             <p>
-              Data manifests, SFT/DPO preparation, data quality checks, and fixed evaluation hooks for
-              7B-class model experiments.
+              Public snapshot for Chinese finance reranking with Qwen3-Reranker-8B, reporting a 0.9978 MAP
+              run with CI checks and leaderboard context.
             </p>
-            <a href="https://github.com/Kevin-Li-2025/repro-llm-stack">View repository</a>
+            <a href="https://github.com/Kevin-Li-2025/finmteb-zh-reranker-sota">View repository</a>
           </article>
 
           <article class="project-card">
@@ -138,23 +139,23 @@
           </article>
 
           <article class="project-card">
-            <p class="project-type">Code intelligence</p>
-            <h3>CodeGraph</h3>
+            <p class="project-type">AI4S Infra · Scientific agents</p>
+            <h3>SciTrace-RL</h3>
             <p>
-              AST-driven GraphRAG for codebases, using deterministic program structure instead of plain text
-              chunks for architectural reasoning.
+              Trace, validation, and reward infrastructure for scientific agents, including semantic judging,
+              deterministic validators, and expert-escalation boundaries.
             </p>
-            <a href="https://github.com/Kevin-Li-2025/CodeGraph">View repository</a>
+            <a href="https://github.com/Kevin-Li-2025/SciTrace_RL">View repository</a>
           </article>
 
           <article class="project-card">
-            <p class="project-type">Efficient models</p>
-            <h3>1.58bit_model</h3>
+            <p class="project-type">Routing · Full-stack systems</p>
+            <h3>CodeConquerors</h3>
             <p>
-              1.58-bit model training experiments with quantization-aware layers, Triton kernels,
-              stability tracking, and GPU utilization instrumentation.
+              Accessibility-aware urban routing with .NET 9, PostGIS, Redis/Kafka workers, graph
+              preprocessing, hazard scoring, and an Expo mobile client.
             </p>
-            <a href="https://github.com/Kevin-Li-2025/1.58bit_model">View repository</a>
+            <a href="https://github.com/Kevin-Li-2025/CodeConquerors">View repository</a>
           </article>
         </div>
       </section>
@@ -162,7 +163,7 @@
       <section class="section split" id="research">
         <div class="section-heading">
           <p class="eyebrow">Research direction</p>
-          <h2>From prototypes to systems that can be measured.</h2>
+          <h2>Measured behavior before polished demos.</h2>
         </div>
         <div class="research-list">
           <div>
@@ -187,7 +188,8 @@
         </div>
         <div class="contact-links">
           <a href="https://github.com/Kevin-Li-2025">GitHub</a>
-          <a href="https://github.com/Kevin-Li-2025/SciTrace_RL">SciTrace-RL</a>
+          <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
+          <a href="https://github.com/Kevin-Li-2025/NL2SQL">NL2SQL</a>
         </div>
       </section>
     </main>
