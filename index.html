@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Yin Li builds reproducible LLM evaluation, post-training, retrieval, and agent infrastructure."
+      content="Yin Li builds reproducible LLM evaluation, post-training, retrieval, and traceable agent infrastructure."
     />
-    <meta property="og:title" content="Yin Li | LLM Systems & AI Research" />
+    <meta property="og:title" content="Yin Li | LLM Systems Engineering" />
     <meta
       property="og:description"
-      content="LLM systems engineer focused on reproducible evaluation, retrieval, post-training, and traceable agent infrastructure."
+      content="Research engineering portfolio for reproducible LLM evaluation, verifier-guided post-training, retrieval systems, and agent traces."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kevin-li-2025.github.io/" />
-    <title>Yin Li | LLM Systems & AI Research</title>
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/215896158?v=4" />
+    <title>Yin Li | LLM Systems Engineering</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
@@ -27,9 +28,9 @@
           "Large language models",
           "Post-training",
           "Verifier-guided inference",
-          "Text-to-SQL",
           "Retrieval evaluation",
-          "Scientific agents",
+          "Agent traces",
+          "Benchmark infrastructure",
           "AI for Science infrastructure"
         ]
       }
@@ -42,8 +43,9 @@
         <span>Yin Li</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#research">Research</a>
+        <a href="#systems">Systems</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#stack">Stack</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -51,127 +53,255 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">LLM evaluation · Post-training · Retrieval systems</p>
-          <h1>Reproducible LLM systems for evaluation, retrieval, and agent traces.</h1>
-          <p class="lede">
-            I build post-training pipelines, verifier-guided inference tools, retrieval evaluation systems,
-            and infrastructure that keeps model outputs connected to evidence.
+          <p class="eyebrow">LLM systems | evaluation | post-training | retrieval</p>
+          <h1>Yin Li</h1>
+          <p class="headline">
+            I build reproducible infrastructure for model behavior: benchmark runners, verifier-guided
+            inference, retrieval diagnostics, and traceable agent workflows.
           </p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="button primary" href="https://github.com/Kevin-Li-2025">GitHub</a>
-            <a class="button secondary" href="#work">Selected work</a>
+            <a class="button secondary" href="#systems">Selected systems</a>
+            <a class="button secondary" href="#evidence">Evidence model</a>
           </div>
         </div>
 
-        <aside class="profile-card" aria-label="Profile summary">
-          <img
-            class="avatar"
-            src="https://avatars.githubusercontent.com/u/215896158?v=4"
-            alt="Yin Li GitHub avatar"
-          />
-          <div class="profile-line">
-            <span>Focus</span>
-            <strong>LLM evaluation systems</strong>
+        <aside class="signal-panel" aria-label="Profile signal summary">
+          <div class="profile-snapshot">
+            <img
+              class="avatar"
+              src="https://avatars.githubusercontent.com/u/215896158?v=4"
+              alt="Yin Li GitHub avatar"
+            />
+            <div>
+              <p class="panel-label">Current surface</p>
+              <strong>Research engineering for LLM systems</strong>
+            </div>
           </div>
-          <div class="profile-line">
-            <span>Primary surface</span>
-            <strong>Benchmarks and traces</strong>
-          </div>
-          <div class="profile-line">
-            <span>Engineering style</span>
-            <strong>Evidence-first systems</strong>
+          <div class="signal-grid">
+            <div>
+              <span>Primary loop</span>
+              <strong>Measure -> trace -> improve</strong>
+            </div>
+            <div>
+              <span>Artifact style</span>
+              <strong>Commands, reports, hashes</strong>
+            </div>
+            <div>
+              <span>Focus</span>
+              <strong>Evaluation under distribution shift</strong>
+            </div>
+            <div>
+              <span>Systems bias</span>
+              <strong>Small runs, clear ablations</strong>
+            </div>
           </div>
         </aside>
       </section>
 
-      <section class="section" id="work">
+      <section class="signal-strip" aria-label="Engineering signals">
+        <div>
+          <span>01</span>
+          <strong>Post-training pipelines</strong>
+          <p>SFT/DPO-style flows, verifier checks, and executable benchmark exports.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <strong>Retrieval evaluation</strong>
+          <p>Query planning, source trust, citation grounding, and regression tests.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <strong>Agent observability</strong>
+          <p>Tool traces, validators, retry paths, reward labels, and escalation boundaries.</p>
+        </div>
+        <div>
+          <span>04</span>
+          <strong>Efficient model systems</strong>
+          <p>Single-GPU training, quantization, throughput, latency, and reproducible runs.</p>
+        </div>
+      </section>
+
+      <section class="section" id="systems">
         <div class="section-heading">
           <p class="eyebrow">Selected systems</p>
-          <h2>Projects with clear evidence surfaces.</h2>
+          <h2>Repositories organized around evidence, not screenshots.</h2>
+          <p>
+            The strongest projects expose the full path from setup to artifact: commands, benchmark inputs,
+            result files, known boundaries, and the exact claim each run supports.
+          </p>
         </div>
 
         <div class="project-grid">
           <article class="project-card feature">
-            <div>
-              <p class="project-type">Post-training · Verifier-guided inference</p>
-              <h3>L20-CodeForge</h3>
-              <p>
-                Single-L20 post-training and verifier-guided inference stack for executable code benchmarks,
-                with reproduction scripts, artifact hashes, and explicit claim boundaries.
-              </p>
+            <div class="project-topline">
+              <p class="project-type">Post-training | verifier-guided inference</p>
+              <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">Repository</a>
             </div>
-            <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">View repository</a>
+            <h3>L20-CodeForge</h3>
+            <p>
+              Single-L20 post-training and verifier-guided inference stack for executable code benchmarks,
+              with reproduction scripts, artifact hashes, and explicit claim boundaries.
+            </p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Reproduction scripts and benchmark artifacts</dd></div>
+              <div><dt>Axis</dt><dd>Code generation, RLVR, executable validation</dd></div>
+            </dl>
           </article>
 
           <article class="project-card">
-            <p class="project-type">Fine-tuning · Evaluation</p>
+            <div class="project-topline">
+              <p class="project-type">Fine-tuning | evaluation</p>
+              <a href="https://github.com/Kevin-Li-2025/nl2sql-benchmark">Repository</a>
+            </div>
             <h3>nl2sql-benchmark</h3>
-            <p>
-              Reproducible text-to-SQL fine-tuning and multi-path inference benchmark using Qwen2.5-Coder-7B
-              on Spider/BIRD-style tasks.
-            </p>
-            <a href="https://github.com/Kevin-Li-2025/nl2sql-benchmark">View repository</a>
+            <p>Text-to-SQL fine-tuning and multi-path inference with Qwen2.5-Coder-7B.</p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Spider/BIRD-style evaluation, cost curves, export paths</dd></div>
+            </dl>
           </article>
 
           <article class="project-card">
-            <p class="project-type">Reranking · FinanceMTEB</p>
+            <div class="project-topline">
+              <p class="project-type">Reranking | FinanceMTEB</p>
+              <a href="https://github.com/Kevin-Li-2025/finmteb-zh-reranker-sota">Repository</a>
+            </div>
             <h3>finmteb-zh-reranker-sota</h3>
-            <p>
-              Public snapshot for Chinese finance reranking with Qwen3-Reranker-8B, reporting a 0.9978 MAP
-              run with CI checks and leaderboard context.
-            </p>
-            <a href="https://github.com/Kevin-Li-2025/finmteb-zh-reranker-sota">View repository</a>
+            <p>Chinese finance reranking snapshot with Qwen3-Reranker-8B and public comparison context.</p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Reported MAP run, CI checks, leaderboard snapshot</dd></div>
+            </dl>
           </article>
 
           <article class="project-card">
-            <p class="project-type">Retrieval · Agent systems</p>
+            <div class="project-topline">
+              <p class="project-type">Retrieval | agent systems</p>
+              <a href="https://github.com/Kevin-Li-2025/signal-rag">Repository</a>
+            </div>
             <h3>signal-rag</h3>
-            <p>
-              Search and retrieval workbench with query planning, multi-source retrieval, citation checks,
-              and extractive fallback when model APIs are unavailable.
-            </p>
-            <a href="https://github.com/Kevin-Li-2025/signal-rag">View repository</a>
+            <p>Search and retrieval workbench with query planning, source-trust tiers, and citation checks.</p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Recall evaluation, extractive fallback, benchmark examples</dd></div>
+            </dl>
           </article>
 
           <article class="project-card">
-            <p class="project-type">AI4S Infra · Scientific agents</p>
+            <div class="project-topline">
+              <p class="project-type">AI4S infra | scientific agents</p>
+              <a href="https://github.com/Kevin-Li-2025/scitrace-rl">Repository</a>
+            </div>
             <h3>scitrace-rl</h3>
-            <p>
-              Trace, validation, and reward infrastructure for scientific agents, including semantic judging,
-              deterministic validators, and expert-escalation boundaries.
-            </p>
-            <a href="https://github.com/Kevin-Li-2025/scitrace-rl">View repository</a>
+            <p>Trace, validation, and reward infrastructure for scientific agents.</p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Adversarial cases, semantic judge, deterministic validators</dd></div>
+            </dl>
           </article>
 
           <article class="project-card">
-            <p class="project-type">Routing · Full-stack systems</p>
-            <h3>accessible-route-planner</h3>
-            <p>
-              Accessibility-aware urban routing with .NET 9, PostGIS, Redis/Kafka workers, graph
-              preprocessing, hazard scoring, and an Expo mobile client.
-            </p>
-            <a href="https://github.com/Kevin-Li-2025/accessible-route-planner">View repository</a>
+            <div class="project-topline">
+              <p class="project-type">Retrieval benchmark | provenance</p>
+              <a href="https://github.com/Kevin-Li-2025/coreb-retrieval-sota">Repository</a>
+            </div>
+            <h3>coreb-retrieval-sota</h3>
+            <p>CoREB retrieval benchmark snapshot with CI-backed artifacts and result provenance.</p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Versioned result files and reproducible evaluation path</dd></div>
+            </dl>
           </article>
         </div>
       </section>
 
-      <section class="section split" id="research">
-        <div class="section-heading">
-          <p class="eyebrow">Research direction</p>
-          <h2>Measured behavior before polished demos.</h2>
+      <section class="section split" id="evidence">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow">Evidence model</p>
+          <h2>A good repository should behave like a lab instrument.</h2>
+          <p>
+            The page is optimized for reviewers who scan quickly: what problem is solved, what can be
+            reproduced, what was measured, and where the claim stops.
+          </p>
         </div>
-        <div class="research-list">
+        <div class="evidence-rail">
+          <article>
+            <span>Input contract</span>
+            <h3>Datasets, prompts, traces, and configs are named.</h3>
+            <p>No invisible benchmark setup. Inputs should be inspectable before running anything.</p>
+          </article>
+          <article>
+            <span>Execution contract</span>
+            <h3>Commands produce stable artifacts.</h3>
+            <p>Scripts, Make targets, and CI paths make evaluation repeatable after code changes.</p>
+          </article>
+          <article>
+            <span>Claim contract</span>
+            <h3>Metrics include provenance and limitations.</h3>
+            <p>Reported numbers should point to hardware notes, data versions, and known failure modes.</p>
+          </article>
+          <article>
+            <span>Agent contract</span>
+            <h3>Actions leave traces that can be audited.</h3>
+            <p>Tool calls, citations, validators, retries, and escalation paths are stored as system data.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="stack">
+        <div class="section-heading">
+          <p class="eyebrow">Stack map</p>
+          <h2>Pragmatic tools for measurable model systems.</h2>
+        </div>
+        <div class="stack-grid">
           <div>
-            <h3>Post-training data</h3>
-            <p>Building controlled data pipelines, preference signals, and reproducible evaluation runs.</p>
+            <span>Model systems</span>
+            <p>PyTorch, Transformers, LoRA/QLoRA, vLLM, lm-eval, Triton</p>
           </div>
           <div>
-            <h3>Retrieval evaluation</h3>
-            <p>Testing citation integrity, failure modes, routing behavior, and regression risk in RAG systems.</p>
+            <span>Evaluation</span>
+            <p>Golden sets, regression tests, semantic judges, citation checks, benchmark reports</p>
           </div>
           <div>
-            <h3>Scientific agents</h3>
-            <p>Designing traceable workflows where model outputs stay connected to tools, evidence, and validation.</p>
+            <span>Applications</span>
+            <p>RAG, text-to-SQL, tool use, structured generation, scientific workflows</p>
+          </div>
+          <div>
+            <span>Infrastructure</span>
+            <p>FastAPI, TypeScript, Docker, GitHub Actions, SQLite, PostGIS, Redis, Kafka</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section repo-matrix" aria-label="Repository matrix">
+        <div class="matrix-heading">
+          <p class="eyebrow">Repository matrix</p>
+          <h2>Work surfaces grouped by capability.</h2>
+        </div>
+        <div class="matrix-grid">
+          <div>
+            <h3>Training and inference</h3>
+            <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
+            <a href="https://github.com/Kevin-Li-2025/repro-llm-stack">repro-llm-stack</a>
+            <a href="https://github.com/Kevin-Li-2025/l20-edu-135m-pretrain">l20-edu-135m-pretrain</a>
+            <a href="https://github.com/Kevin-Li-2025/bitnet-1p58b-experiments">bitnet-1p58b-experiments</a>
+          </div>
+          <div>
+            <h3>Retrieval and ranking</h3>
+            <a href="https://github.com/Kevin-Li-2025/signal-rag">signal-rag</a>
+            <a href="https://github.com/Kevin-Li-2025/retrieval-eval">retrieval-eval</a>
+            <a href="https://github.com/Kevin-Li-2025/finmteb-zh-reranker-sota">finmteb-zh-reranker-sota</a>
+            <a href="https://github.com/Kevin-Li-2025/coreb-retrieval-sota">coreb-retrieval-sota</a>
+          </div>
+          <div>
+            <h3>Agents and traces</h3>
+            <a href="https://github.com/Kevin-Li-2025/scitrace-rl">scitrace-rl</a>
+            <a href="https://github.com/Kevin-Li-2025/multi-agent-memory-graphs">multi-agent-memory-graphs</a>
+            <a href="https://github.com/Kevin-Li-2025/CodeGraph">CodeGraph</a>
+            <a href="https://github.com/Kevin-Li-2025/workers-ai-agent-demo">workers-ai-agent-demo</a>
+          </div>
+          <div>
+            <h3>Structured systems</h3>
+            <a href="https://github.com/Kevin-Li-2025/nl2sql-benchmark">nl2sql-benchmark</a>
+            <a href="https://github.com/Kevin-Li-2025/order-delta-bench">order-delta-bench</a>
+            <a href="https://github.com/Kevin-Li-2025/accessible-route-planner">accessible-route-planner</a>
+            <a href="https://github.com/Kevin-Li-2025/rti-command-center">rti-command-center</a>
           </div>
         </div>
       </section>
@@ -179,7 +309,7 @@
       <section class="contact" id="contact">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Open to research engineering, LLM systems, and AI4S infrastructure opportunities.</h2>
+          <h2>Open to research engineering, LLM systems, evaluation infrastructure, and AI4S opportunities.</h2>
         </div>
         <div class="contact-links">
           <a href="https://github.com/Kevin-Li-2025">GitHub</a>

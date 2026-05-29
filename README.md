@@ -2,7 +2,7 @@
 
 Source for [kevin-li-2025.github.io](https://kevin-li-2025.github.io/).
 
-The site is intentionally static: one HTML file, one CSS file, and no build step. It is used as a compact portfolio for LLM systems, retrieval evaluation, post-training, and traceable agent infrastructure work.
+This is a static research engineering portfolio for LLM systems, reproducible evaluation, post-training, retrieval infrastructure, and traceable agent workflows. It intentionally stays dependency-free: one HTML file, one CSS file, and no build step.
 
 ## Featured Work
 
@@ -11,6 +11,7 @@ The site is intentionally static: one HTML file, one CSS file, and no build step
 - [finmteb-zh-reranker-sota](https://github.com/Kevin-Li-2025/finmteb-zh-reranker-sota): FinanceMTEB Chinese reranking snapshot with Qwen3-Reranker-8B
 - [signal-rag](https://github.com/Kevin-Li-2025/signal-rag): retrieval workbench with citation checks and source-trust tiers
 - [scitrace-rl](https://github.com/Kevin-Li-2025/scitrace-rl): trace, validation, and reward infrastructure for scientific agents
+- [coreb-retrieval-sota](https://github.com/Kevin-Li-2025/coreb-retrieval-sota): reproducible retrieval benchmark snapshot with CI-backed artifacts
 
 ## Local Preview
 
@@ -22,6 +23,7 @@ python3 -m http.server 8080
 
 ## Update Checklist
 
-- Keep the project list aligned with pinned GitHub repositories.
-- Prefer concrete evidence: benchmark names, hardware, reproducibility notes, and explicit claim boundaries.
-- Avoid adding a build system unless the site needs generated pages or shared components.
+- Keep project links aligned with renamed GitHub repositories.
+- Prefer concrete evidence: benchmark names, hardware, reproducibility notes, artifacts, and explicit claim boundaries.
+- Keep the positioning centered on research engineering and systems work.
+- Avoid adding a build system unless generated pages or shared components become necessary.
