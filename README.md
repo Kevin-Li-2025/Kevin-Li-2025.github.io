@@ -6,6 +6,7 @@ This is a static research engineering portfolio for LLM systems, reproducible ev
 
 ## Featured Work
 
+- [Triton PR #10411](https://github.com/triton-lang/triton/pull/10411): merged upstream runtime cache-group integrity fix with full integration CI across NVIDIA, AMD, and macOS runners
 - [L20-CodeForge](https://github.com/Kevin-Li-2025/L20-CodeForge): single-L20 post-training and verifier-guided inference stack for executable code benchmarks
 - [nl2sql-benchmark](https://github.com/Kevin-Li-2025/nl2sql-benchmark): reproducible text-to-SQL fine-tuning and multi-path inference benchmark
 - [finmteb-zh-reranker-sota](https://github.com/Kevin-Li-2025/finmteb-zh-reranker-sota): FinanceMTEB Chinese reranking snapshot with Qwen3-Reranker-8B

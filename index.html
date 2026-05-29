@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Yin Li builds reproducible LLM evaluation, post-training, retrieval, and traceable agent infrastructure."
+      content="Yin Li builds reproducible LLM evaluation, post-training, retrieval, traceable agent infrastructure, and upstream model-system fixes."
     />
     <meta property="og:title" content="Yin Li | LLM Systems Engineering" />
     <meta
       property="og:description"
-      content="Research engineering portfolio for reproducible LLM evaluation, verifier-guided post-training, retrieval systems, and agent traces."
+      content="Research engineering portfolio for reproducible LLM evaluation, verifier-guided post-training, retrieval systems, agent traces, and upstream Triton work."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kevin-li-2025.github.io/" />
@@ -57,7 +57,7 @@
           <h1>Yin Li</h1>
           <p class="headline">
             I build reproducible infrastructure for model behavior: benchmark runners, verifier-guided
-            inference, retrieval diagnostics, and traceable agent workflows.
+            inference, retrieval diagnostics, traceable agent workflows, and upstream model-system fixes.
           </p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="button primary" href="https://github.com/Kevin-Li-2025">GitHub</a>
@@ -92,8 +92,8 @@
               <strong>Evaluation under distribution shift</strong>
             </div>
             <div>
-              <span>Systems bias</span>
-              <strong>Small runs, clear ablations</strong>
+              <span>Upstream OSS</span>
+              <strong>Triton PR #10411 merged</strong>
             </div>
           </div>
         </aside>
@@ -118,7 +118,7 @@
         <div>
           <span>04</span>
           <strong>Efficient model systems</strong>
-          <p>Single-GPU training, quantization, throughput, latency, and reproducible runs.</p>
+          <p>Single-GPU training, quantization, runtime/cache correctness, and reproducible runs.</p>
         </div>
       </section>
 
@@ -134,6 +134,22 @@
 
         <div class="project-grid">
           <article class="project-card feature">
+            <div class="project-topline">
+              <p class="project-type">Upstream OSS | compiler/runtime</p>
+              <a href="https://github.com/triton-lang/triton/pull/10411">Merged PR</a>
+            </div>
+            <h3>Triton PR #10411</h3>
+            <p>
+              Merged upstream runtime cache-group integrity fix that treats incomplete cache groups as
+              misses, with unit coverage and full Triton integration CI across NVIDIA, AMD, and macOS runners.
+            </p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>Merged into triton-lang/triton, commit 83adb20</dd></div>
+              <div><dt>Axis</dt><dd>Runtime cache correctness and regression coverage</dd></div>
+            </dl>
+          </article>
+
+          <article class="project-card">
             <div class="project-topline">
               <p class="project-type">Post-training | verifier-guided inference</p>
               <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">Repository</a>
@@ -252,7 +268,7 @@
         <div class="stack-grid">
           <div>
             <span>Model systems</span>
-            <p>PyTorch, Transformers, LoRA/QLoRA, vLLM, lm-eval, Triton</p>
+            <p>PyTorch, Transformers, LoRA/QLoRA, vLLM, lm-eval, Triton runtime, C++/CUDA</p>
           </div>
           <div>
             <span>Evaluation</span>
@@ -277,6 +293,7 @@
         <div class="matrix-grid">
           <div>
             <h3>Training and inference</h3>
+            <a href="https://github.com/triton-lang/triton/pull/10411">Triton PR #10411</a>
             <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
             <a href="https://github.com/Kevin-Li-2025/repro-llm-stack">repro-llm-stack</a>
             <a href="https://github.com/Kevin-Li-2025/l20-edu-135m-pretrain">l20-edu-135m-pretrain</a>
@@ -313,6 +330,7 @@
         </div>
         <div class="contact-links">
           <a href="https://github.com/Kevin-Li-2025">GitHub</a>
+          <a href="https://github.com/triton-lang/triton/pull/10411">Triton PR #10411</a>
           <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
           <a href="https://github.com/Kevin-Li-2025/nl2sql-benchmark">nl2sql-benchmark</a>
         </div>
