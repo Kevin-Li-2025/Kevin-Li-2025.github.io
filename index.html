@@ -185,6 +185,22 @@
 
           <article class="project-card">
             <div class="project-topline">
+              <p class="project-type">L20 infra | kernels and training</p>
+              <a href="https://github.com/Kevin-Li-2025/l20-stack">Repository</a>
+            </div>
+            <h3>l20-stack</h3>
+            <p>
+              Single-L20 reference stack with Triton RMSNorm, fused residual paths, RoPE + KV-cache write
+              kernels, measured dispatch policies, and handwritten NF4 QLoRA smoke runs.
+            </p>
+            <dl class="proof-list">
+              <div><dt>Proof</dt><dd>L20 benchmark reports, CUDA telemetry, Qwen2.5-Coder 0.5B and 14B smoke runs</dd></div>
+              <div><dt>Axis</dt><dd>GPU kernels, serving/training constraints, single-card systems evidence</dd></div>
+            </dl>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
               <p class="project-type">Post-training | verifier-guided inference</p>
               <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">Repository</a>
             </div>
