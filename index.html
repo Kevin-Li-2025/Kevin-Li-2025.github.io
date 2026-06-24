@@ -141,7 +141,8 @@
             <h3>Upstream model-system fixes</h3>
             <p>
               Merged fixes across Triton, Apache TVM, and Microsoft ONNX Runtime, focused on runtime
-              correctness, benchmarking reliability, ONNX frontend behavior, and CUDA/FMHA initialization.
+              correctness, benchmarking reliability, ONNX frontend behavior, CUDA/FMHA initialization, and
+              high-signal upstream bug reports.
             </p>
             <dl class="proof-list">
               <div>
@@ -158,6 +159,10 @@
               <div>
                 <dt>ONNX Runtime</dt>
                 <dd><a href="https://github.com/microsoft/onnxruntime/pull/29140">PR #29140</a> merged</dd>
+              </div>
+              <div>
+                <dt>PyTorch</dt>
+                <dd><a href="https://github.com/pytorch/pytorch/issues/188023">Issue #188023</a> triaged as a DLPack crash bug</dd>
               </div>
             </dl>
           </article>
@@ -262,7 +267,13 @@
             <h3>coreb-retrieval-sota</h3>
             <p>CoREB retrieval benchmark snapshot with CI-backed artifacts and result provenance.</p>
             <dl class="proof-list">
-              <div><dt>Proof</dt><dd>Versioned result files and reproducible evaluation path</dd></div>
+              <div>
+                <dt>Proof</dt>
+                <dd>
+                  Versioned result files, reproducible evaluation path, and
+                  <a href="https://github.com/hq-bench/coreb/issues/1">upstream submission issue</a>
+                </dd>
+              </div>
             </dl>
           </article>
         </div>
@@ -338,6 +349,7 @@
             <a href="https://github.com/triton-lang/triton/pull/10413">Triton PR #10413</a>
             <a href="https://github.com/microsoft/onnxruntime/pull/29140">ONNX Runtime PR #29140</a>
             <a href="https://github.com/apache/tvm/pull/19818">TVM PR #19818</a>
+            <a href="https://github.com/pytorch/pytorch/issues/188023">PyTorch issue #188023</a>
             <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
             <a href="https://github.com/Kevin-Li-2025/repro-llm-stack">repro-llm-stack</a>
             <a href="https://github.com/Kevin-Li-2025/l20-edu-135m-pretrain">l20-edu-135m-pretrain</a>
@@ -376,6 +388,7 @@
           <a href="https://github.com/triton-lang/triton/pull/10411">Triton PR #10411</a>
           <a href="https://github.com/microsoft/onnxruntime/pull/29140">ONNX Runtime PR #29140</a>
           <a href="https://github.com/apache/tvm/pull/19818">TVM PR #19818</a>
+          <a href="https://github.com/pytorch/pytorch/issues/188023">PyTorch issue #188023</a>
           <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
           <a href="https://github.com/Kevin-Li-2025/nl2sql-benchmark">nl2sql-benchmark</a>
         </div>
