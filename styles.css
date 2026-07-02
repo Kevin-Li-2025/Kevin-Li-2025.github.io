@@ -362,10 +362,16 @@ h3 {
 
 .proof-list div {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr);
+  grid-template-columns: minmax(120px, 0.24fr) minmax(0, 1fr);
   gap: 12px;
   padding-top: 12px;
   border-top: 1px solid var(--line);
+}
+
+.proof-list dt,
+.proof-list dd {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .proof-list dd {
@@ -546,6 +552,11 @@ h3 {
 
   .project-card.feature {
     grid-column: auto;
+  }
+
+  .proof-list div {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .project-topline,
