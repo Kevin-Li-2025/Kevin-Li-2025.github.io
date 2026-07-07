@@ -94,7 +94,7 @@
             </div>
             <div>
               <span>Upstream OSS</span>
-              <strong>Triton, DataFusion, Ray</strong>
+              <strong>Triton, FlashAttention, DataFusion</strong>
             </div>
           </div>
         </aside>
@@ -141,9 +141,9 @@
             </div>
             <h3>Upstream model-system fixes</h3>
             <p>
-              Merged fixes across Triton, Ray, PyTorch TorchTitan, Apache DataFusion, Apache TVM, Microsoft ONNX Runtime, and xgrammar,
+              Merged fixes across Triton, Ray, PyTorch TorchTitan, Apache DataFusion, FlashAttention, Apache TVM, Microsoft ONNX Runtime, and xgrammar,
               focused on runtime correctness, distributed autoscaling metrics, LoRA fine-tuning behavior,
-              spill execution configuration, benchmarking reliability, ONNX frontend behavior, CUDA/FMHA initialization, structured-generation parser edge cases, and high-signal
+              spill execution configuration, CuTe/SM120 compile handling, benchmarking reliability, ONNX frontend behavior, CUDA/FMHA initialization, structured-generation parser edge cases, and high-signal
               upstream bug reports including AI tooling security/correctness boundaries.
             </p>
             <dl class="proof-list">
@@ -165,6 +165,10 @@
               <div>
                 <dt>DataFusion</dt>
                 <dd><a href="https://github.com/apache/datafusion/pull/23066">PR #23066</a> merged</dd>
+              </div>
+              <div>
+                <dt>FlashAttention</dt>
+                <dd><a href="https://github.com/Dao-AILab/flash-attention/pull/2671">PR #2671</a> merged</dd>
               </div>
               <div>
                 <dt>Ray</dt>
@@ -455,6 +459,7 @@
             <a href="https://github.com/apache/tvm/pull/19818">TVM PR #19818</a>
             <a href="https://github.com/pytorch/torchtitan/pull/3456">TorchTitan PR #3456</a>
             <a href="https://github.com/apache/datafusion/pull/23066">DataFusion PR #23066</a>
+            <a href="https://github.com/Dao-AILab/flash-attention/pull/2671">FlashAttention PR #2671</a>
             <a href="https://github.com/ray-project/ray/pull/64184">Ray PR #64184</a>
             <a href="https://github.com/mlc-ai/xgrammar/pull/667">xgrammar PR #667</a>
             <a href="https://github.com/gradio-app/gradio/issues/13556">Gradio issue #13556</a>
@@ -502,6 +507,7 @@
           <a href="https://github.com/apache/tvm/pull/19818">TVM PR #19818</a>
           <a href="https://github.com/pytorch/torchtitan/pull/3456">TorchTitan PR #3456</a>
           <a href="https://github.com/apache/datafusion/pull/23066">DataFusion PR #23066</a>
+          <a href="https://github.com/Dao-AILab/flash-attention/pull/2671">FlashAttention PR #2671</a>
           <a href="https://github.com/ray-project/ray/pull/64184">Ray PR #64184</a>
           <a href="https://github.com/mlc-ai/xgrammar/pull/667">xgrammar PR #667</a>
           <a href="https://github.com/gradio-app/gradio/issues/13556">Gradio issue #13556</a>
