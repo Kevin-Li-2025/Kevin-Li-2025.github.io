@@ -94,7 +94,7 @@
             </div>
             <div>
               <span>Upstream OSS</span>
-              <strong>Triton, FlashAttention, DataFusion</strong>
+              <strong>FlashAttention, scikit-learn, DataFusion</strong>
             </div>
           </div>
         </aside>
@@ -141,12 +141,18 @@
             </div>
             <h3>Upstream model-system fixes</h3>
             <p>
-              Merged fixes across Triton, Ray, PyTorch TorchTitan, Apache DataFusion, FlashAttention, Apache TVM, Microsoft ONNX Runtime, and xgrammar,
+              Merged fixes across FlashAttention, scikit-learn, Triton, Ray, PyTorch TorchTitan, Apache DataFusion, Apache TVM, Microsoft ONNX Runtime, and xgrammar,
               focused on runtime correctness, distributed autoscaling metrics, LoRA fine-tuning behavior,
-              spill execution configuration, CuTe/SM120 compile handling, benchmarking reliability, ONNX frontend behavior, CUDA/FMHA initialization, structured-generation parser edge cases, and high-signal
+              spill execution configuration, CuTe/SM120 compile handling, benchmarking reliability, Array API/DLPack interop safety, ONNX frontend behavior, CUDA/FMHA initialization, structured-generation parser edge cases, and high-signal
               upstream bug reports including AI tooling security/correctness boundaries.
             </p>
             <dl class="proof-list">
+              <div>
+                <dt>scikit-learn</dt>
+                <dd>
+                  <a href="https://github.com/scikit-learn/scikit-learn/pull/34380">PR #34380</a> merged
+                </dd>
+              </div>
               <div>
                 <dt>Triton</dt>
                 <dd>
