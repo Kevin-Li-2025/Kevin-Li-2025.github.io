@@ -334,69 +334,6 @@
         </div>
       </section>
 
-      <section class="section" id="uk-ai">
-        <div class="section-heading">
-          <p class="eyebrow">UK AI ecosystem</p>
-          <h2>Open-source fixes for UK public-sector AI and safety tooling.</h2>
-          <p>
-            Current UK-focused work targets government AI infrastructure directly: AISI evaluation tooling
-            and i.AI public-service AI systems. Open pull requests are listed as open until maintainer review
-            or merge confirms the contribution.
-          </p>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card feature">
-            <div class="project-topline">
-              <p class="project-type">AISI | evaluation infrastructure</p>
-              <a href="https://github.com/UKGovernmentBEIS/inspect_ai/pull/4371">Open PR #4371</a>
-            </div>
-            <h3>UK AI Security Institute Inspect AI</h3>
-            <p>
-              Ready-for-review fix for `bash_session` output handling so unbounded command output is capped
-              before JSON-RPC serialization, reducing sandbox failure risk in model evaluations.
-            </p>
-            <dl class="proof-list">
-              <div><dt>Status</dt><dd>Open, ready for review, mergeable</dd></div>
-              <div><dt>Validation</dt><dd>Focused pytest, RPC integration test, ruff, and py_compile</dd></div>
-            </dl>
-          </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <p class="project-type">i.AI | public-service AI</p>
-              <a href="https://github.com/i-dot-ai/lex/pull/87">Open PR #87</a>
-            </div>
-            <h3>i-dot-ai Lex</h3>
-            <p>
-              Ready-for-review fix for empty-text document uploads in the UK legal API stack, avoiding
-              unnecessary embedding and vector-store writes when a batch has no uploadable content.
-            </p>
-            <dl class="proof-list">
-              <div><dt>Status</dt><dd>Open, ready for review, mergeable</dd></div>
-              <div><dt>Validation</dt><dd>Focused pytest, ruff, py_compile, and passing security check</dd></div>
-            </dl>
-          </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <p class="project-type">i.AI | public-sector productivity</p>
-              <a href="https://github.com/i-dot-ai/minute/pull/60">Open PR #60</a>
-            </div>
-            <h3>i-dot-ai Minute</h3>
-            <p>
-              Ready-for-review fix for Azure OpenAI structured output handling in public-sector meeting
-              transcription/minuting infrastructure, replacing an undefined method call with the adapter's
-              existing response handling path.
-            </p>
-            <dl class="proof-list">
-              <div><dt>Status</dt><dd>Open, ready for review, mergeable</dd></div>
-              <div><dt>Validation</dt><dd>Focused pytest, ruff, and py_compile with a fake Azure client</dd></div>
-            </dl>
-          </article>
-        </div>
-      </section>
-
       <section class="section split" id="evidence">
         <div class="section-heading sticky-heading">
           <p class="eyebrow">Evidence model</p>
@@ -491,9 +428,6 @@
           </div>
           <div>
             <h3>Agents and traces</h3>
-            <a href="https://github.com/UKGovernmentBEIS/inspect_ai/pull/4371">AISI Inspect AI PR #4371</a>
-            <a href="https://github.com/i-dot-ai/lex/pull/87">i.AI Lex PR #87</a>
-            <a href="https://github.com/i-dot-ai/minute/pull/60">i.AI Minute PR #60</a>
             <a href="https://github.com/Kevin-Li-2025/scitrace-rl">scitrace-rl</a>
             <a href="https://github.com/Kevin-Li-2025/CodeGraph">CodeGraph</a>
           </div>
@@ -526,9 +460,6 @@
           <a href="https://github.com/mlc-ai/xgrammar/pull/667">xgrammar PR #667</a>
           <a href="https://github.com/gradio-app/gradio/issues/13556">Gradio issue #13556</a>
           <a href="https://github.com/pytorch/pytorch/issues/188023">PyTorch issue #188023</a>
-          <a href="https://github.com/UKGovernmentBEIS/inspect_ai/pull/4371">AISI Inspect AI PR #4371</a>
-          <a href="https://github.com/i-dot-ai/lex/pull/87">i.AI Lex PR #87</a>
-          <a href="https://github.com/i-dot-ai/minute/pull/60">i.AI Minute PR #60</a>
           <a href="https://github.com/Kevin-Li-2025/L20-CodeForge">L20-CodeForge</a>
           <a href="https://github.com/Kevin-Li-2025/nl2sql-benchmark">nl2sql-benchmark</a>
         </div>
